@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #parentdiv{
+             height: 500px;
+             width: 500px;
+             background-color: aquamarine;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin-left: 30%;
+             margin-top:5%;
+             border: 1px solid black;
+        }
+        #childdiv{
+            height: 150px;
+            width: 150px;
+            background-color: antiquewhite;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid black;
+        }
+        #button{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="parentdiv">
+        <div id="childdiv">
+            <button id="button">click me</button>
+        </div>
+    </div>
+</body>
+<script>
+    //event bubling-child to parent click karne par sabhi chalenge ise prevent karne ke liye-- event.stoppropagation()use karenge
+    let parentdiv=document.getElementById("parentdiv");
+    let childdiv=document.getElementById("childdiv");
+    let button=document.getElementById("button");
+
+    // console.log(parentdiv,childdiv,button);//htmlcollection
+    button.addEventListener("click",function(event){
+        event.stopPropagation();
+        console.log("I am clicked by button");
+        
+    })
+    childdiv.addEventListener("click",function(event){
+        event.stopPropagation();
+        console.log("I am clicked by child");
+        
+    })
+    parentdiv.addEventListener("click",function(event){
+        event.stopPropagation();
+        console.log("I am clicked by Parent");
+        
+    })
+    
+</script>
+</html>

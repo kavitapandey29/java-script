@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+        <input type="text" id="firstname" placeholder="firstname">
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="text" id="age" placeholder="age">
+        <input type="submit" id="button">
+    </form>
+</body>
+<script>
+    //event-change,focus blur
+    let form=document.getElementById("form");
+    //change event fire here 
+    form.addEventListener("change",function(event){
+        event.preventDefault();
+        console.log("change event fired");//form fill bhar click kiya value utha li current value    
+        //loop
+        for(const ele of form){
+            console.log(ele.value);
+            
+        }
+        
+    })
+</script>
+</html>

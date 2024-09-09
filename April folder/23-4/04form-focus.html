@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+        <input type="text" id="firstname" placeholder="firstname">
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="text" id="age" placeholder="age">
+        <input type="submit" id="button">
+    </form>
+
+
+    <form action="" id="form2" name="form2">
+        <input type="text" id="fname" placeholder="firstname">
+        <input type="text" id="lname" placeholder="lastname">
+        <input type="text" id="ag" placeholder="age">
+        <input type="submit" id="button">
+    </form>
+</body>
+<script>
+    let form=document.getElementById("form");
+    for (const ele of form){
+        ele.addEventListener("focus",function(){
+            console.log("I am Focused");
+            console.log(ele.value);//only click on the blank input focus will be work 
+        })
+        
+    }
+    let form2=document.getElementById("form2");
+    for (const ele of form2){
+        ele.addEventListener("blur",function(){
+            console.log("I am blur");
+            console.log(ele.value);//work like change 
+        })
+        
+    }
+</script>
+</html>

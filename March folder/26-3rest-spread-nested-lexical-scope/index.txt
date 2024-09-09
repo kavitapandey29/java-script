@@ -1,0 +1,40 @@
+date 26th march 2024
+last class-promise (async await callback)
+-------------------------------------------------------------------------------------------------------------------------------------
+
+-Advance functions
+TDZ-Temporal dead Zone--gec ke andar memory aur code ke excution ke phase ko tdz bolte hai eg.-- here in this code becaue of let shows some uninsilalised error
+
+------------------------------------------------------------------------------------------------------------------------------------
+GEC
+phase 1-- parsing memory--properly formatted variable memory(let var const)
+phase 2-- excution -- values
+
+hoisting - variable var keyword and normal function ke sath => function ke sath nahi kyunki return mai parent element deta hai
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+*lexical scope -a way of defining how variables and function interect based on their position in the code. Eg.{let x=2}//curly braces se bahar is let ko use nahi kar sakte toh iska lexical scope is curly braces ke andar tak hi hai
+Eg.2-let x=2;  lexical scope is global scope
+
+
+nested function
+-----------------------------------------------------------------------------------------------------------------------------------
+rest and spread operator
+
+*spread-- faila dena
+*rest-- bind
+--rest multipal array ko ek array mai convert kar dega
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+*Function expression--when you store a function in variable it's called function expression
+------------------------------------------------------------------------------------------------------------------------------------
+
+hw. deep copy shallow copy
+object ko copy karne ke 5 ways
+fec-function excution context
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+java-object orianted

@@ -1,0 +1,26 @@
+Date 19-4-2024
+
+last class-dom
+
+BOM API
+event listner-
+
+event-global object jo broser tayar karke deta hai
+event object for same tag eg.-button
+event.target- kon sa event pakda gya hai
+
+html selector dom mai broser mai kuch chande ho rha ho toh woh reflect ho jata hai
+dom selector reflect nahi karte
+
+event- three ways to written an event -01 02
+target-element 
+-------------------------------------------------------------------------------------------------------------------
+
+events-
+mouse-click,duble click ,enter ,out
+
+keyboard
+form
+
+
+

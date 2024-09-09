@@ -1,0 +1,1 @@
+//global nahi hai toh auto global mai jayega

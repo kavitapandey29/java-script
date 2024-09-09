@@ -1,0 +1,14 @@
+Date 23rd april ,2024
+
+last class - DOM 
+
+form continue ,form validation js ,bubbling and capturing
+
+UI-html-js-dom tree -U
+
+form element-
+event.target.value
+event loop
+document.forms
+document.forms[0]
+document.forms['form']

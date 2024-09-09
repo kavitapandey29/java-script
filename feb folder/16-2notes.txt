@@ -1,0 +1,14 @@
+//decimal 
+//binory
+//optal
+//hexadecimal
+
+Decimal - optal, binary, hexadecimal - base devide
+octal,binary,hexadecimal- weight *current base*
+
+window object >>>> bucket >> functionality written
+setInterval  setTimeOut>> browser functionality
+--------------------------------------------------------------------------------------------------------------------------------
+
+hw obj-> function-method-function -this
+hw obj-> function-method-es6-function-this

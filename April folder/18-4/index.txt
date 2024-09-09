@@ -1,0 +1,34 @@
+Dom-animation-manipulations + event handler + BOM API
+
+DOM- Document object Model
+root-Document
+
+1-selectors
+html selectors- dom wale
+
+html- getElementById , getElementByClass , getElementByTag  (HTML Collection)
+1-single element lega
+2-multipal values hai toh html Collection mai data dega
+3-className se koi class add kar rahe hai toh purani class override ho jayega
+4-purani class override na ho aur ek aur class add ho jaye uske liye classList.add()
+5-add textual data in html .innerText
+
+DOM- queryselector - () id-# , class-. , tagname-name
+     queryselectorAll
+     (Node List)
+
+------------------------------------------------------------------------------------
+create element using js
+
+//hw
+//element select -history - parent
+while(null){
+
+}
+
+
+title tag body ke andar rahkar bhi as a title hi rahega kyunki dom tree is tarah se bna hua hai humara
+defer-wait dom tayar hone ke baad java script chalegi
+async-baad mai chal jaunga niche wala kaam kar le (promise deta hai)
+
+dom mai kuch changes ho raha hai toh java script ki position matter karti hai agar dom change nahi ho rha hai toh java script ki position matter nahi karti. agar js ki position kahi bhi rakhni hai toh async mood pe chla sakte hai ya differ mode pe

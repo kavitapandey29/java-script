@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>click</button>
+    <button class="btn2">doble click</button>
+    <button class="btn3">mouseover</button>
+    <button class="btn4">mouseleave</button>
+    <button class="btn5">mouseup</button>
+    <button class="btn6">mousedown</button>
+    
+</body>
+<script>
+    // mouse-events
+    // 1
+    let btn=document.querySelector("button");
+    btn.addEventListener("click",function(event){
+        console.log("I am clicked");
+        console.log(event.target);
+        
+    })
+    // 2
+    let btn2=document.querySelector(".btn2");
+        btn2.addEventListener("dblclick",function(event){
+            console.log("I am double clicked");
+            console.log(event.target);
+            
+    })
+    //3
+    let btn3=document.querySelector(".btn3");
+        btn3.addEventListener("mouseover",function(event){
+            console.log("I am mouse over");
+            console.log(event.target);
+            
+    })
+    //4
+    let btn4=document.querySelector(".btn4");
+        btn4.addEventListener("mouseleave",function(event){
+            console.log("I am mouse leave");
+            console.log(event.target);
+            
+    })
+    //5
+    let btn5=document.querySelector(".btn5");
+        btn5.addEventListener("mouseup",function(event){
+            console.log("I am mouse up");
+            console.log(event.target);
+            
+    })
+    //6
+    let btn6=document.querySelector(".btn6");
+        btn6.addEventListener("mousedown",function(event){
+            console.log("I am mouse down");
+            console.log(event.target);
+            
+    })
+    
+</script>
+</html>

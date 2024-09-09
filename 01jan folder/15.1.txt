@@ -1,0 +1,85 @@
+javascript syllabus
+1.Basics of javascript
+1.1 prerequiste
+-Input
+-Output
+-Conditional -if else else if switch
+-Repeat-Loops (for while, do, while, for of, for in, for each)
+-functions
+
+1.Operators(arithmatic,relation,logical,unary)
+2.functions
+
+
+Advance javascript
+-High order function
+-callbacks
+-Callback Hell
+-Inversion Of Control
+-Promises
+-Promises Hell
+-Promises Chaining 
+-Class And Object
+-Oops (This New Constructor)
+-Protypes
+-Protypal inheritance
+-_proto_
+
+res-ecma international,mdn doc
+--------------------------------------------------------
+
+javascript-1995,netscape or internet exploler (for browser),netscape make javascript first(Brendan eich),Ecma ask to make crossplatform javascript, amazon-2000 codebase, backward language - purane bugs ko dur na karna unko enhance karna ..... programming language
+
+client side ..browser
+server side ....
+
+website-static data
+
+runtime environment
+chrome-javascript chala rha hai ..V8 engine 
+spider monkey-javascript firefox 
+
+node js - runtime environment
+deno js-next genration javascript runtime
+bun js-a fast javascript all-in-one runtime
+node js-javascript runtime built on chrome v8 javascript engine
+
+java-spring ,spring boot, hybernet ,
+python - python jengo
+c sharp - .net,.net core,mvc
+
+backend- api 
+2 types of API- reast API , restfull API standards
+
+boiler plate-lang,charset,name (attribute),Utf8(character set)
+
+/**
+ * fundamentals
+ * 1> intro to js, variabless,conditionals,loops ,object , array, function, scope , closure , oops, new , this
+ * 
+ * 2> js DOM , DOM BOM API , local storage , feach , axios, 
+ */
+
+/**
+ * Advance js-
+ * High order function
+ * callbacks 
+ * callback hell
+ * inversion of control
+ * Promises
+ * Promise Hell
+ * Promise vhaning
+ * Asyn Await
+ * Asyn behavior of JS
+ * scope
+ * closure
+ * JS engine internal
+ * Constructor
+ * class and object
+ * inheritence
+ * prptotypes
+ * prptotypal inheritence
+ * scopes 
+ * closure
+ * coerction - type casting
+ */

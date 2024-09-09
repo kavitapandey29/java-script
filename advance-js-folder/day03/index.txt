@@ -1,0 +1,47 @@
+Date 21st feb,2024
+
+Last Class- coercion - ToNumber, ToPrimitive ,functions ,this
+
+ToBoolian , == (duble equal to) ===(triple equal to)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+abstract operation as a devloper ise use nahi kar sakte internal java script ko samjhne ke liye banayi gyi hai
+
+ToBoolean ( argument )
+The abstract operation ToBoolean takes argument argument (an ECMAScript language value) and returns a Boolean. It converts argument to a value of type Boolean. It performs the following steps when called:
+
+1. If argument is a Boolean, return argument.
+2. If argument is one of undefined, null, +0𝔽, -0𝔽, NaN, 0ℤ, or the empty String, return false.
+3. NOTE: This step is replaced in section B.3.6.1.
+4. Return true.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+abstract equality comparison
+
+1. If Type(x) is the same as Type(y), then
+   a. Return the result of performing x===y
+2. If x is null and y is undefined, return true.
+3. If x is undefined and y is null, return true.
+5. If x is a Number and y is a String, return ! IsLooselyEqual(x, ! ToNumber(y)).
+6. If x is a String and y is a Number, return ! IsLooselyEqual(! ToNumber(x), y).
+7. if y is Boolean ,return the result of the comparison ! ToNumber(y)
+8. if x is str ,num , sym and y is obj ,return x==ToPrimitive(y)
+9. if y is str ,num , sym and x is obj ,return ToPrimitive(x)==y
+10. return false
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+IsStrictlyEqual ( x, y )
+x===y true and false
+
+1. If Type(x) is different Type(y), return false.
+2. If x is a Number, then
+  a. x is Nan,return false
+  b. y is NaN, return false
+  c. x is the same Number value as y ,return true
+  d. x is +0 and y is -0 , return true
+  e. x is -0 and y is +0,return true
+  f. return false

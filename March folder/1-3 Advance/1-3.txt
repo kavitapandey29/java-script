@@ -1,0 +1,13 @@
+Date 1 march,2024
+last class-function -number system questions
+JS the lang -done
+
+Advance js -Async js -event loop , main call stack ,side call stack (callback queue)
+-Fetch Api - kisi remote url pe jake waha se data lekar aati hai
+-Axios.get  AJAX
+
+promises
+callbacks
+Async await
+event loop
+generators

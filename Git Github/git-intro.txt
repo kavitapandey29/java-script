@@ -1,0 +1,16 @@
+github - website- remotly code share
+
+git - software
+
+repositary-folder
+
+commit- save
+
+fork - complete copy
+
+>>>ecom v-1.0
+ecom v-1.1
+ecom v-1.1.2
+ecom v-1.1.3
+
+pull request (main will be accepted by)

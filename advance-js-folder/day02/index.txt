@@ -1,0 +1,16 @@
+date 18th feb ,2024 (day2)
+
+Last class -function , this,call,apply,bind,coercion(intro)
+--------------------------------------------------------------------------------------------------------------------------------------
+
+coercion-type conversion / type casting
+java script automatically data type convert karti hai toh use coercion bolte hai
+
+coercion- abstract operation (ese operation jise devloper use nahi kar sakte)(but operation document mai likha gya hai-to aid/help us to understand the internal working of coercion.type conversion)
+
+ToNumber, ToPremitive, ToBoolian , ToString primitive methods hai/abstract operation hai jo as a devloper java script ke code mai use nahi kar sakte
+
+console .log("2"-1)//1
+console .log("2"+1)//21 depend + operator ke uppar
+
+abstract operator--ToNumber, ToPremitive, ToBoolian , ToString (in abstract operator ko java script ke native code mai nahi bhej sakte )

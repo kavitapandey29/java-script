@@ -1,0 +1,10 @@
+date 23rd feb ,2024
+
+last Class - DOM , html manupulation , css manipulation ,selection ,change
+---------------------------------------------------------------------------------------->
+
+Events, EventListners 
+
+Event- click , scroll , mouse click
+
+document.addEventListner(event,callback)

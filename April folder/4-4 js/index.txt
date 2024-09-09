@@ -1,0 +1,9 @@
+Date 4th April ,2024
+
+-Number -> rounding , floor , ceil , trunc to fix toString
+
+array
+ToString
+Immutability and mutebility
+
+

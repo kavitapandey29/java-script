@@ -1,0 +1,26 @@
+#downloadBar{
+    height: 40px;
+    width: 500px;
+    background-color: aquamarine;
+    border: 1px black solid;
+    border-radius: 20px;
+}
+
+#progress{
+    height: 40px;
+    width: 50px;
+    background-color:red;
+    border: 1none;
+    border-radius: 20px;
+}
+
+#dcomplete{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+/* for hide use opacity */
+#dcomplete h3{
+    opacity: 0;
+}

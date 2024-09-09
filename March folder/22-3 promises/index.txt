@@ -1,0 +1,35 @@
+//ek function jo ek dusra function khata hai, callback
+//us wale callback ki wajah se hi tumhara main wala function---- dependent 
+// callback ke andar kitne bhi function pass kar sakte hai
+//callback hell or inversion of control or pyramid of Doom
+//java script single threaded hai --ek time pe ek hi kaam
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+/*issues of Callbacks
+1-- readability issue--the code become hard to read 
+2--making changes and debugging is time-consuming
+3--inversion of control--all control is on parent hand
+4--callback hell--call-back ke andar ek callback callback ke andar ek aur callback
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+*GEC-Global Execution Context -- parsing phase-> scopes deta hai -->global-->function mai-->variables(let var const)and excution phase --value deta hai
+
+*callstack-- syncronus code function --async wala code gec bhejta hai pq(priority queue) 
+p1-- 2sec
+p2-- 3sec
+p3-- 4sec
+
+*async wala code(promise,async ,await,callback,settimeout,setinterval,fetch api,exios,xml) tabhi chalega jab callstack ho jayega empty empty tabhi hoga jab sync code (for loop, while, console.log)chalega 
+
+*event loop check karega ki callstack empty hui ya nahi
+
+*CBQ--callback queue ke andar async code process hoga promise mai pq mai priority di jayegi jiska time kam hoga 
+
+*callback ke readbility ke issue ko sudharne ke liye promise ka use karte hai..
+
+*promise ek object hai

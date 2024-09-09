@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me </button>
+    
+    <button id="btn2">click here</button>
+
+    <button onclick="clicked()">clicked</button>
+
+    <button onclick="fun()">clicking</button>
+
+    <button id="btn3">clicked </button>
+
+    <button id="btn4">had clicked</button>
+
+    <button id="btn5">clicking</button>
+
+</body>
+
+<script src="02index.js">
+
+</script>
+<script>  
+  function clicked(){
+    console.log("i am clicked by onclick");
+    console.log(this);//window(by es5 function)
+    
+}
+let fun=()=>{
+    console.log("i am clicked by fat arrow function");
+    console.log(this);//widow (by fat arror function)
+    
+    
+}
+
+let btn3=document.getElementById("btn3");
+btn3.onclick=function clicked(){
+    console.log("i am clicked cy onclick ");
+    console.log(this);//button element 
+}
+
+let btn4=document.getElementById("btn4");
+btn4.addEventListener("click",function(){
+    console.log("I am clicked by addEventListner");
+    console.log(this);//button element
+ 
+})
+
+let btn5=document.getElementById("btn5");
+btn5.addEventListener("click",()=>{
+    console.log("I am clicked by fat arrow function");
+    console.log(this);//window object
+ 
+})
+</script>
+</html>

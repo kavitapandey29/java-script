@@ -1,0 +1,19 @@
+Date 29th march ,2024
+
+Last class- Class Intro ,Instance,object,constructor
+
+-Class Inheritance
+-method over loading
+-mathod over riding ,property overriding
+-extends
+-multiple, multilevel Inheritance
+-super constructor
+-cons over loading
+-static properties and method
+-Instance of operator
+-prototype
+-exception handling
+
+//dry and kiss
+
+//super keyword

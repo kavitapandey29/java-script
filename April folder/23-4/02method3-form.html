@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- name  describing form name -->
+    <form action="" id="form" name="form">
+        <input type="text" id="firstname" placeholder="firstname">
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="number" id="age"placeholder="age">
+        <input type="submit">
+    </form>
+
+    <form action="" id="form2" name="form2">
+        <input type="text" id="fname" placeholder="firstname">
+        <input type="text" id="lname" placeholder="lastname">
+        <input type="number" id="age2"placeholder="age">
+        <input type="submit">
+    </form>
+</body>
+<script>
+    console.log(document.forms);//htmlcollection (dom ke sare form catch kar lega )
+    console.log(document.querySelectorAll("form"));//nodelist
+    
+    console.log(document.forms['form']);//by name
+    console.log(document.forms['form2']);//by name
+
+    //method 3
+
+    let form=document.getElementById("form");
+    form.addEventListener("submit",function(event){
+        event.preventDefault();
+        //form--document.forms[0] // document.forms['form']
+        for(const ele of form){
+            console.log(ele);
+            let ans=ele.value
+            console.log(ans);
+        }
+    })
+   
+    
+    
+</script>
+</html>

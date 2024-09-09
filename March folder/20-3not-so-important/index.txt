@@ -1,0 +1,26 @@
+Async Js
+
+const sum = (a,b,cd) => {//Async
+console.log(a*b);
+cb(p,q)
+}
+const multiply =(p,q)=>{//Async
+console.log(p*q);
+}
+
+const url =""
+let a;
+let b;
+sum(a,b,mutiply);
+
+
+
+line to line ssyncronus ki wajah se behavior mai changes aa jate aa hai
+java script nature wise syncronus hoti hai but kachi ssyncronus behavior aata hai toh woh event loop ki tarah handle hota hai
+priority queue
+callback-- callback is a another function which is supply as an argument mostly last argument
+----------------------------------------------------------------------------------------------------------------------
+
+
+promises(recieve reject)
+

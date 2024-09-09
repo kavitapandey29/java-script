@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form" name="form">
+        <input type="text" id="firstname" placeholder="firstname">
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="number" id="age"placeholder="age">
+        <input type="submit">
+    </form>
+
+    <form action="" id="form" name="form2">
+        <input type="text" id="firstname" placeholder="firstname">
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="number" id="age"placeholder="age">
+        <input type="submit">
+    </form>
+    <script>
+        //method-1
+
+        // let firstname=document.getElementById("firstname");
+        // let lastname=document.getElementById("lastname");
+        // let age=document.getElementById("age");
+        // let button=document.getElementById("button");
+
+        // console.log(firstname);
+        // console.log(lastname);
+        // console.log(age);
+        // console.log(button);
+        
+        //method-2 (event.target)
+        // let form=document.getElementById("form");
+        // console.log(form);//elements
+        // console.dir(form);//form#form
+        
+        // form.addEventListener("submit",function(event){
+        //     event.preventDefault();//page load  form ka bydefault behavior prevent karne ke liye
+        //     //dom deta hai 
+        //     console.log(event);//element
+        //     console.log(event.target);
+        //     console.log("---------------------");
+            
+        //     //loop
+        //     for(const elt of event.target){
+        //         console.log(elt.value);//value    
+        //     }
+        // })
+        //method-3
+        let form=document.getElementById('form');
+        console.log(document.forms[0]);//html collection
+        console.log(document.forms[form]);//bina loop ke elements ko pakad lega
+        console.log(document.forms[form2]);//element of second form
+        
+        
+        form.addEventListener("submit",function(event){
+            event.preventDefault();
+            console.log("form submitted");//form submitted
+            console.log(event.target);//element
+            
+            
+        })
+
+        for(const ele of document.forms['form']){
+            console.log(ele);
+            console.dir(ele);
+            console.log(ele.target);
+             
+        }
+     </script>
+</body>
+</html>

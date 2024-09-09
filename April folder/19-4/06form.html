@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- action- redirect data bhejna -->
+    <form action="" id="form">
+        <input type="text" id="firstname" placeholder="firstname">
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="number" id="age" placeholder="age">
+        <input type="submit">
+    </form>
+</body>
+<script>
+    let form=document.getElementById("form");
+    let firstname=document.getElementById("firstname");
+    let lastname=document.getElementById("lastname");
+    let age=document.getElementById("age")
+
+
+    //loop
+        //   for(const ele of document.forms){
+        //     console.log(ele.value);
+            
+        //   }
+
+
+    form.addEventListener("submit",function(event){
+        event.preventDefault();//form default behavior ko rok deta hai
+        console.log("submitted");
+        // console.log(event.target.value);
+        console.log(firstname.value);
+        console.log(lastname.value);
+        console.log(age.value);
+        
+        
+        
+    })
+</script>
+</html>

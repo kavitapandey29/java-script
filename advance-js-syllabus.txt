@@ -1,0 +1,24 @@
+Advance object
+
+Property flags and descriptors
+
+property flags
+writable
+enumerable
+configurable
+
+Non writeable
+
+Non enumerables
+
+Non configurable
+
+object-defineProperties
+object-getOwnPropertyDescriptors
+
+sealing and object globally
+object.preventExtentions(obj)
+object.seal(obj)
+object.freeze(obj)
+object.isSealed(obj)
+object.isFreezed(obj)

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add and Remove Names</title>
+</head>
+<body>
+
+<input type="text" id="nameInput" placeholder="Enter name">
+<button onclick="addName()">Add Name</button>
+<button onclick="removeName()">Remove Last Name</button>
+
+<div id="namesList"></div>
+
+<script>
+    let names = [];
+
+    function addName() {
+        let name = document.getElementById("nameInput").value;
+        if (name !== "") {
+            names.push(name);
+            updateNamesList();
+            document.getElementById("nameInput").value = ""; // Clear input field
+        }
+    }
+
+    function removeName() {
+        if (names.length > 0) {
+            names.pop();
+            updateNamesList();
+        }
+    }
+
+    function updateNamesList() {
+        let namesListDiv = document.getElementById("namesList");
+        namesListDiv.innerHTML = ""; // Clear the list
+        names.forEach(name => {
+            let nameSpan = document.createElement("span");
+            nameSpan.textContent = name;
+            namesListDiv.appendChild(nameSpan);
+            let br = document.createElement("br");
+            namesListDiv.appendChild(br);
+        });
+    }
+</script>
+
+</body>
+</html>

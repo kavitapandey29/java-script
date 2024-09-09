@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="form">
+        <input type="text" id="firstname" placeholder="firstname">
+        <input type="text" id="lastname" placeholder="lastname">
+        <input type="number" id="age" placeholder="age">
+        <input type="submit">
+    </form>
+</body>
+<script>
+    let form=document.getElementById("form");
+    // console.log(document.forms);//html collection
+    form.addEventListener("submit",function(event){
+        event.preventDefault();//for prevent all default in html
+        //loop 
+        for(const ele of document.forms[0]){
+            console.log(elt.value);//value
+            
+        }
+    })
+    
+    
+</script>
+</html>

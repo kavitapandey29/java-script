@@ -1,0 +1,25 @@
+Date 28th march ,2024
+
+last class - rest spread excution
+
+class -prototype blueprint ka object, category
+
+class syntax
+
+class field
+
+class object instense
+
+constructor
+
+
+
+hw.-computed properties, oops ,method overloading,method overriding,polymorphism,extends keyword
+
+
+object level
+
+class level
+
+---------------------------------------------------------------------------------------------------------------------------------------
+for DSA--arithmatic progression ,geometric progression,log, series,number system(optal,binary,decimal)

@@ -1,0 +1,18 @@
+date 11th april ,2024
+
+Advance Data Type
+
+Map , set ,weak map , weak set, hidden properties of object
+
+array map - method
+
+Map -data Type
+
+data type-prototype-class
+number-Number
+string-string
+bool-Boolean
+
+Map-Map
+
+-object jaisa hota hai

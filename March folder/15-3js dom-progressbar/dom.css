@@ -1,0 +1,49 @@
+#main{
+    height:100% ;
+    width: 100%;
+    background-color: aliceblue;
+}
+.container{
+    padding: 10vw 25vw;
+  
+}
+.img{
+    height: 7vw;
+    width: 7vw;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+input{
+    padding: 12px 22px;
+    height: 30px;
+    width: 100%;
+    font-weight: 800;
+    background-color: rgb(129, 129, 190);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid black;
+  
+
+}
+.people{
+
+display: flex;
+margin-top: 20px;
+flex-wrap: wrap;
+gap: 10px;
+
+}
+.person{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

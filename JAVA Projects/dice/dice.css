@@ -1,0 +1,290 @@
+html, body {
+    --color-1: #a8e6cf;
+    --color-2: #dcedc1;
+    --color-3: #ffd3b6;
+    --color-4: #ffaaa5;
+    --color-5: #ff8b94;
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding-top: 50px;
+    background-image: linear-gradient(135deg, var(--color-1), var(--color-2));
+    font-family: sans-serif;
+    height: 100vh;
+    color: black;
+  }
+  
+  .container {
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    /* background-image: url('pic/dice.png'); */
+    background-size: cover;
+    background-color:var(--color-2);
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+    padding: 50px;
+  }
+  
+  .players {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  .player1{
+    margin: 10px;
+    margin-left: -10px;
+    padding: 50px;
+    border: var(--color-4) solid 1px ;
+    color: black;
+    background-color: var(--color-4);
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+    transition: 0.5s all ease;
+
+  }
+
+  .player1:hover{
+    transform: scale(0.9);
+  }
+
+  .player2{
+    margin: 10px;
+    padding: 50px;
+    border: var(--color-4) solid 1px ;
+    color: black;
+    background-color: var(--color-4);
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+    transition: 0.5s all ease;
+  }
+
+  .player2:hover{
+    transform: scale(0.9);
+  }
+
+  .dice {
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-4);
+    margin: 0 auto;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    color: black;
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s all ease;
+  }
+  button:hover,button:focus{
+    color: black;
+    font-weight: 600;
+
+  }
+ 
+  button:active{
+    transform: scale(0.9);
+  }
+  
+  #rollBtn {
+    background-color: var(--color-1);
+    margin-left: 110px;
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+  }
+  
+  #resetBtn {
+    background-color: var(--color-3); 
+    justify-content: center;
+    margin-left: 90px;
+    border-radius: 10px;
+    box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  #resetBtn {
+    display: none;
+  }
+  
+  .active {
+    box-shadow: 2px 6px 18px 3px rgba(0, 0, 0, 0.75);
+  }
+
+  
+/* Media Queries */
+
+/* For small screens (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+  }
+  .players {
+    width: 100%;
+    flex-direction: column;
+  }
+  .player1, .player2 {
+    margin: 10px 0;
+    padding: 20px;
+  }
+  .dice {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  #rollBtn {
+    margin-left: 0;
+  }
+  #resetBtn {
+    margin-left: 0;
+  }
+}
+
+/* For medium screens (max-width: 900px) */
+@media only screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+    padding: 30px;
+  }
+  .players {
+    width: 100%;
+    flex-direction: row;
+  }
+  .player1, .player2 {
+    margin: 10px;
+    padding: 30px;
+  }
+  .dice {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+  }
+  button {
+    padding: 15px 25px;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  #rollBtn {
+    margin-left: 50px;
+  }
+  #resetBtn {
+    margin-left: 40px;
+  }
+}
+
+/* For large screens (max-width: 1200px) */
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 70%;
+    padding: 40px;
+  }
+  .players {
+    width: 100%;
+    flex-direction: row;
+  }
+  .player1, .player2 {
+    margin: 10px;
+    padding: 40px;
+  }
+  .dice {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+  }
+  button {
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  #rollBtn {
+    margin-left: 80px;
+  }
+  #resetBtn {
+    margin-left: 60px;
+  }
+}
+
+/* For extra large screens (min-width: 1200px) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 60%;
+    padding: 50px;
+  }
+  .players {
+    width: 100%;
+    flex-direction: row;
+  }
+  .player1, .player2 {
+    margin: 10px;
+    padding: 50px;
+  }
+  .dice {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+  }
+  button {
+    padding: 20px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  #rollBtn {
+    margin-left: 100px;
+  }
+  #resetBtn {
+    margin-left: 80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 60%;
+    padding: 10px;
+  }
+  .players {
+    width: 90%;
+    flex-direction: column;
+  }
+  .player1, .player2 {
+    margin: 5px 0;
+    padding: 10px;
+  }
+  .dice {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  #rollBtn {
+    margin-left: 0;
+  }
+  #resetBtn {
+    margin-left: 0;
+  }
+}

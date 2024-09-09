@@ -1,0 +1,37 @@
+level 1- Js the laguage (50- 60 que)-(async js ,callback,promise,async await,genrator function),Dom()
+level 2-70% -30% (interview)-Level DOM (4 classes)
+level 3-stepup (ecma)
+
+js -75%
+
+DOM-level 1,level 2
+
+Vanilla project -1-music player , cricket game, billing project, github extractor
+
+level Dom -4classes
+Vanilla projects
+React-2 months
+redux -2 classes
+React-2 project (youtube,twitter)
+
+----------------------------------------------------------------------------------------------------------------------------------
+DSA - DP --200
+
+
+// hw - custom date formatter - yyyy mm dd 00:00:00 Am
+
+------------------------------------------------------------------------
+
+//Json- stringfy parse - java script object notation (data send karna hai Json formet /xml formet) json is lightweight so we'll use Json more
+//and point-Api(UI pe nahi dikhega data formet mai dikhega api hai)
+
+//Json formetter online
+
+// Json mai mathod / function nahi likh sakte 
+//object ,array ,object [array],object {object}
+// key value {""}
+data.json
+{
+    "firstname":"kavita"
+
+}

@@ -1,0 +1,45 @@
+scopes-- visibility
+
+//js complied or interpreter
+
+compiler-- ek tarah ka translator jo english mai likhi chijo ko 0,1 mai translate karta hai
+line1
+line2 error
+line3
+line4
+ek error ki vajah se pura code nahi chalega
+
+interpreter-- line by line
+line1
+line2 error
+line3
+line4
+toh line 2 ko chhod ke baki ka code chalega
+
+so java script hybrid language hai
+
+----------------------------------------------------------------------------------------------------------------------------
+compiler / translate two phase mai hota hai 
+    1.parsing phase--scope resolution- scope manager ke formatted declare variables-ke scope ko set karta hai
+
+             //there are 4 types of scopes in parsing phase
+             1--global
+             2--local/blocked
+             3--function
+             4--module level scope -- node js 
+
+    
+    //2.excution phase--In this phase, the JavaScript engine executes the code in the execution context. It processes any statements or expressions in the script and evaluates any function calls. Everything in JS happens inside this execution context. It is divided into two components.
+
+
+    One is memory and the other is code. It is important to remember that these phases and components are applicable to both global and functional execution contexts.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+parsing phase -- variable add hote hai
+execution phase-- value add hote hai
+
+Auto Global--formatted variabal (let var const) nahi hai toh usko automatically global scope milega 
+
+two phase hote hai parsing phase and excution phase agar value global nahi hai toh auto global mai jayega

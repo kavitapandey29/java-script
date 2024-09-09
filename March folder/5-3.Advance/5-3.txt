@@ -1,0 +1,10 @@
+constructor function
+this new
+prototypal inheritence 
+closures
+event deligation
+
+
+read- event bubling 
+event deligation
+custom events

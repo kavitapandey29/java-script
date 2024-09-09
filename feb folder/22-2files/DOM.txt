@@ -1,0 +1,33 @@
+date 22/feb/2024
+
+function , array , (1d,2d),Searching(liner search, Binary Searching),sorting(quick sort,merge sort)
+---------------------------------------------------------------------------------------------------------------------------------------
+
+DOM 
+
+DOM > Document Object model (html mai animation,manupalation,change karni hai ) Dom tree
+DOM manipulate using js
+
+selection - element selection (opening tag <some content> closing tag) 
+change
+event
+
+    <!-- html manipulation -->
+
+Document.getelement by id
+Document.getelement by classname
+Document.getelement by tag
+Document.getelement by element
+
+element content manipulate - textcontent, innerhtml
+
+//css manipulate
+
+
+
+
+
+
+
+
+Q. 2 heading 2img html and css change

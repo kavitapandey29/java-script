@@ -1,0 +1,16 @@
+operators
+
+arithamtic >>  - + * /%
+logical
+relational
+bitwise
+ternary
+
+Operator Precedence in Java (associativity)
+
+truth table and aur not
+
+And or xor not left shift , right shift , triple shift >>,<<,>>>
+
+
+
